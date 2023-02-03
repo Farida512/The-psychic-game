@@ -27,7 +27,7 @@ document.addEventListener("keyup", e => {
       wins++;
       chances = 9;
       guesses.length = 0;
-      alert(`That's right! The letter is ${answer}`);
+      alert(`That's right! The letter is ${compChoice}`);
       answer = findLetter();
       guesses = [];
     } else if (chances === 0) {
